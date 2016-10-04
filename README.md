@@ -4,7 +4,9 @@
 ## About
 When running JVMs in Docker, it is sometimes necessary to get a remote connection into the JVM via `jconsole` or `jvisualvm`. With standard JMX-RMI this is only possible, when the Docker Bridge portmappings are the same inside and outside of the container (X:X). It is not possible to assign use random port mappings for that. 
 
-We were looking for a workaround to achieve random portmappings and still be able to utilize JMX-RMI connections. With JMXMP with have found just that.
+We were looking for a workaround to achieve random portmappings and still be able to utilize JMX-RMI connections. 
+With JMXMP we have found just that. It is easy to use and can quickly be integrated into 
+a Docker container. 
 
 ## Usage
 
