@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  jmxmp-demo:
+    container_name: jmxmp-demo
+    image: jmxmp-demo
+    build:
+      context: .
+    ports:
+      - 5000:5555
+      - 8080:8080
