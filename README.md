@@ -13,8 +13,9 @@ a Docker container.
 The Docker folder contains a sample `Dockerfile` with all the necessary settings. The `docker-compose.yml` contains instructions for building and running the container. It will map the JMX-RMI port 5555 to the outside on port 5000 to demonstrate the successful X:Y port mapping.
 
 Make sure the JMX client also adds the jmxremote_optional.jar to the classpath.
-For JVisualVM: jvisualvm --cp:a jmxremote_optional.jar
+For JVisualVM: `jvisualvm --cp:a jmxremote_optional.jar`
 
 
 Project inspired by: http://stackoverflow.com/questions/11413178/how-to-enable-jmxmp-in-tomcat
+
 JMXMP Jars: http://stackoverflow.com/questions/11412560/where-to-download-jmxmp
