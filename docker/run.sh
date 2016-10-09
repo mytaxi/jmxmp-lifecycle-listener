@@ -29,7 +29,7 @@ cat << EOF > /usr/tomcat/conf/server.xml
     <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
     <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
     <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
-	  <Listener className="javax.management.remote.extension.JMXMPLifecycleListener" port="5555" />
+    <Listener className="javax.management.remote.extension.JMXMPLifecycleListener" port="5555" />
 
     <GlobalNamingResources>
 
